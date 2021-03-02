@@ -194,9 +194,4 @@ public class StartupServer extends AbstractNettyServer {
         return new InetSocketAddress(address,port);
     }
 
-    public static void main(String[] args) {
-        StartupServer startupServer = new StartupServer(8090);
-        startupServer.start();
-    }
-
 }
